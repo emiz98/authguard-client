@@ -1,6 +1,14 @@
 {
   "name": "@authguard/react",
   "description": "React client for custom OAuth2 implementations using spring-security-oauth2-authorization-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emiz98/authguard-client"
+  },
+  "bugs": {
+    "url": "https://github.com/emiz98/authguard-client/issues"
+  },
+  "homepage": "https://github.com/emiz98/authguard-client",
   "author": "Menura Adithya",
   "license": "MIT",
   "version": "1.0.0",
@@ -27,6 +35,6 @@
     "axios": "^1.4.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "*"
   }
 }

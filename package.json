@@ -11,13 +11,14 @@
   "homepage": "https://github.com/emiz98/authguard-client",
   "author": "Menura Adithya",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.tsx --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "oauth2",
